@@ -1,0 +1,92 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label, section, article, h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body {
+	line-height: 1;
+	min-height:100%;
+	font-family:Artial, Verdana, sans-serif;
+}
+
+.container {
+	position: fixed;
+	background: #334D5C;
+	height: 100%;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+h1 {
+	font-size: 250px;
+	line-height: 700px;
+}
+
+.cover, .cover-reverse {
+	width:100%;
+	height:100%;
+	left:0;
+	top:100%;
+	position: absolute;
+}
+
+.cover {
+	border-left: 2000px solid transparent;
+}
+
+.cover-reverse {
+	border-top: 2000px solid transparent;
+}
+
+#page1 {
+	z-index: 15;
+}
+
+/* Transition 1 to 2 */
+#cover1-2 {
+	z-index: 13;
+	border-top: 2000px solid #334D5C;
+}
+
+#cover1-2-reverse {
+	z-index: 11;
+	border-left: 2000px solid #45B29D;
+}
+
+#page2 {
+	z-index: 12;
+	top:100%;
+}
+
+/* Transition 2 to 3 */
+#cover2-3 {
+	z-index: 23;
+	border-top: 2000px solid #45B29D;
+}
+
+#cover2-3-reverse {
+	z-index: 21;
+	border-left: 2000px solid #EFC94C;
+}
+
+#page3 {
+	z-index: 22;
+	top:100%;
+}
+
+
