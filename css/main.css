@@ -1,4 +1,4 @@
-html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label, section, article, h1 {
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label, section, article {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -28,13 +28,15 @@ html, body {
 section {
 	width: 100%;
 	height: 100%;
-	text-align: center;
 	position: absolute;
+	top:100%;
 }
 
-h1 {
-	font-size: 250px;
-	line-height: 700px;
+article {
+	width:80%;
+	margin:50px auto;
+	position: relative;
+	border-bottom: 5px solid green;
 }
 
 .cover, .cover-reverse {
@@ -70,7 +72,6 @@ h1 {
 
 #page2 {
 	z-index: 12;
-	top:100%;
 }
 
 /* Transition 2 to 3 */
@@ -86,7 +87,6 @@ h1 {
 
 #page3 {
 	z-index: 22;
-	top:100%;
 }
 
 
